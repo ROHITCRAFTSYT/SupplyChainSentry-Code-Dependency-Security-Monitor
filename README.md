@@ -14,7 +14,7 @@ Risk scoring based on package metadata
 
 #Clone the repository:
 
-git clone https://github.com/yourusername/supplychainsentry.git
+git clone 
 
 
 #Install dependencies:

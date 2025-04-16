@@ -43,5 +43,15 @@ Python 3.9+
 Docker
 Packages listed in requirements.txt
 
+--
+**The code includes:**
+
+''Main script (supplychainsentry.py) with core monitoring logic
+Configuration file (config.json)
+Sample YARA rules (rules.yara) for static analysis
+Requirements file (requirements.txt)
+README with setup instructions
+Gitignore file for clean repository management''
+
 **License**
 MIT License

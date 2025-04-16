@@ -1,0 +1,13 @@
+rule SuspiciousNetworkCall {
+    strings:
+        $network = /socket\.connect|requests\.get|urllib\.request/
+    condition:
+        $network
+}
+
+rule SuspiciousFileAccess {
+    strings:
+        $file = /os\.open|open\(.+w/
+    condition:
+        $file
+}
